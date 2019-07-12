@@ -781,3 +781,4 @@ doi_resolvers :
   sci-hub.tw : 'http://sci-hub.tw/'
 
 default_doi_resolver : 'oadoi.org'
+
