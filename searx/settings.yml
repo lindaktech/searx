@@ -58,6 +58,7 @@ engines:
   - name : arch linux wiki
     engine : archlinux
     shortcut : al
+    disabled : True
 
   - name : archive is
     engine : xpath
@@ -75,10 +76,12 @@ engines:
     shortcut : arx
     categories : science
     timeout : 4.0
+    disabled : True
 
   - name : base
     engine : base
     shortcut : bs
+    disabled : True
 
   - name : wikipedia
     engine : wikipedia
@@ -92,6 +95,7 @@ engines:
   - name : bing images
     engine : bing_images
     shortcut : bii
+    disabled : True
 
   - name : bing news
     engine : bing_news
@@ -152,7 +156,7 @@ engines:
     engine : duckduckgo_definitions
     shortcut : ddd
     weight : 2
-    disabled : True
+    
 
   - name : digbt
     engine : digbt
@@ -186,13 +190,13 @@ engines:
   - name : duckduckgo
     engine : duckduckgo
     shortcut : ddg
-    disabled : True
+    
 
   - name : duckduckgo images
     engine : duckduckgo_images
     shortcut : ddi
     timeout: 3.0
-    disabled : True
+    
 
   - name : etymonline
     engine : xpath
@@ -411,7 +415,8 @@ engines:
     engine : microsoft_academic
     categories : science
     shortcut : ma
-
+    disabled : True
+    
   - name : mixcloud
     engine : mixcloud
     shortcut : mc
@@ -619,7 +624,7 @@ engines:
   - name : yandex
     engine : yandex
     shortcut : yn
-    disabled : True
+    
 
   - name : yahoo news
     engine : yahoo_news
